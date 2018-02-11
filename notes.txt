@@ -1,0 +1,90 @@
+Kindgdoms Game (Name TBD)
+
+Premise:
+	Kingdoms (name TBD) is a card based strategy game. The player will begin the game as a lord with a in a small kingdom. 
+They will collect resources to build their estate, fund their army, and conquer their enemies. For ultimately there can only be one king.
+
+Overview:
+	The core game consists of three different "levels".
+	1) Overworld
+		a) World
+			- Travel the map
+			- Meet different groups
+			- Different Kingdoms to interact with
+		b) Zones
+			- World chunked up into zones
+			- Each kingdom vies for control of the zones
+			- Zones provide resources
+				-> Gold, Food, Trade, etc (still being fleshed out)
+			- Fight over zones
+			- Different types:
+				-> Player territory (Directly benefit from)
+				-> Enemy kingdom territory (claiming will spark war!)
+				-> Unincorporated wilderness (Ripe for claiming, owned by monsters)
+		c) Player Interaction
+			- Can form alliances with other kingdoms
+			- Have vassals under them? (smaller independent kingdoms)
+			- Trade
+			- Go to war!
+	2) Battle field
+		- Each contestable zone has a battle field
+		- Combat takes place
+		- Terrain
+	3) Estate
+		- Can upgrade your estate (limit 1?)
+		- Train troops
+		- Recruit mercs
+		- Court?
+
+		
+Units:
+	Represented as cards.
+	Attributes:
+		1. Type (sword, pike, archer, cav, etc)
+			- Each type is effective against another (pike > cav, cav > archer)
+				-> But not end all be all
+		2. Unit Number
+			- How many men are in the units
+			- "Health", but healthier units do better
+		3. Name
+		4. Level (stars)
+			- Higher level units cost more, but are better
+			- Gain levels through combat
+		5. Upkeep
+			- Cost to heal units
+		6. Purchase cost
+		7. Value (effectiveness)
+		
+		
+Army:
+	Each player can create an army (Multiple?).
+	Armies are comprised of units (cards).
+	Total army value
+		- Value of all units combined
+		- Limits?
+		- Rough gage of comparative strength
+	General?
+		- Provide bonuses to armies
+		
+		
+Combat:
+	Any time two armies engage.
+	Attacker, defender
+		- Monsters always defend
+	1) Defender
+		- Place units onto their side of the map.
+			-> limited time
+	2) Attacker
+		- Places units after defender
+	Goal:
+		1) Against another kingdom
+			- Rout the enemy
+		2) Against monsters
+			- Annihilate them
+	Turns
+		- Simultaneous
+			-> Every few tics, players determine what their units will do
+			-> Once both players done, resumes
+		- Between each turn, armies do what players told them to
+	End
+		- Player surrenders
