@@ -10,9 +10,11 @@ public class Select : MonoBehaviour {
     public Image infoPanel;
     public Text nameText;
 
+    public bool isSelected;
+
 	// Use this for initialization
 	void Start () {
-        
+
         // unitName = "Archer";
         initInfoPanel();
 	}
@@ -32,6 +34,7 @@ public class Select : MonoBehaviour {
     void OnMouseDown()
     {
         // Selecting a unit will bring up the unit's card
+        /*
         if (infoPanel.isActiveAndEnabled)
         {
             disableInfoPanel();
@@ -39,6 +42,12 @@ public class Select : MonoBehaviour {
         else
         {
             enableInfoPanel();
+        }
+        */
+        if (!isSelected)
+        {
+            GetComponentInParent<SelectedUnit>().setSelectedUnit(gameObject);
+            Debug.Log(unitName + " is selected");  
         }
     }
 
